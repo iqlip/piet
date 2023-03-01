@@ -1,0 +1,62 @@
+div.form
+{
+    background:linear-gradient(45deg,dodgerblue,aquamarine,pink);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+label{
+    width:140px;
+    display: inline-block;
+    margin: 0.2cm;
+    font-size: 16px;
+    font-weight: bold;
+}
+input{
+    padding: 4px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #f9f9f9;
+
+}
+button#submit
+{
+    margin-top: 7px;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    background-color: dodgerblue;
+    font-size: 16px;
+    border-radius: 8px;
+}
+button#submit:hover{
+    background-color: green;
+    color: #f9f9f9;
+}
+button#Reset
+{
+    margin-top: 7px;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    background-color: dodgerblue;
+    font-size: 17px;
+    border-radius: 8px;
+}
+button#Reset:hover{
+    background-color:red;
+    color: #f9f9f9;
+} 
+
+h2{
+    text-decoration:none;
+    color:blue;
+    font-size: 24px;
+}
+body{
+    background-color: rgb(233, 148, 162);
+}

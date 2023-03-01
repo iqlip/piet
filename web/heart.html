@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>heart</title>
+        <style>
+            body{
+                background-color:aliceblue ;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .heart{
+                font-size: 10rem;
+                animation: heart .5s infinite alternate linear ;
+            }
+            @keyframes heart {
+                from {
+                     transform: scale(.7);
+                }
+                to{
+                     transform: scale(1);
+                }
+            }
+        </style>
+    </head>
+    <body>
+     <div class="heart">
+            <p style="color:red">&#128150;</p>
+        </div>
+    </body>
+</html>
